@@ -12,7 +12,28 @@
 		62F64C0F22C4694E00891DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F64C0D22C4694E00891DE0 /* Main.storyboard */; };
 		62F64C1122C4694F00891DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F64C1022C4694F00891DE0 /* Assets.xcassets */; };
 		62F64C1422C4694F00891DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F64C1222C4694F00891DE0 /* LaunchScreen.storyboard */; };
+		62F64C2122C4746900891DE0 /* BannerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C2022C4746900891DE0 /* BannerDataSource.swift */; };
+		62F64C3422C481DA00891DE0 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C2B22C481DA00891DE0 /* FSPagerView.swift */; };
+		62F64C3522C481DA00891DE0 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C2C22C481DA00891DE0 /* FSPageViewTransformer.swift */; };
+		62F64C3622C481DA00891DE0 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C2E22C481DA00891DE0 /* FSPagerViewCell.swift */; };
+		62F64C3722C481DA00891DE0 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C2F22C481DA00891DE0 /* FSPagerViewLayoutAttributes.swift */; };
+		62F64C3822C481DA00891DE0 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C3022C481DA00891DE0 /* FSPageViewLayout.swift */; };
+		62F64C3922C481DA00891DE0 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C3122C481DA00891DE0 /* FSPageControl.swift */; };
+		62F64C3A22C481DA00891DE0 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C3222C481DA00891DE0 /* FSPagerViewObjcCompat.m */; };
+		62F64C3B22C481DA00891DE0 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F64C3322C481DA00891DE0 /* FSPagerCollectionView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F64C2522C47CEF00891DE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		62F64C0622C4694E00891DE0 /* FSPagerViewTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSPagerViewTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +43,16 @@
 		62F64C1022C4694F00891DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F64C1322C4694F00891DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F64C1522C4694F00891DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F64C2022C4746900891DE0 /* BannerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerDataSource.swift; sourceTree = "<group>"; };
+		62F64C2B22C481DA00891DE0 /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
+		62F64C2C22C481DA00891DE0 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		62F64C2D22C481DA00891DE0 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		62F64C2E22C481DA00891DE0 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
+		62F64C2F22C481DA00891DE0 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		62F64C3022C481DA00891DE0 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
+		62F64C3122C481DA00891DE0 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
+		62F64C3222C481DA00891DE0 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		62F64C3322C481DA00891DE0 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +71,7 @@
 			children = (
 				62F64C0822C4694E00891DE0 /* FSPagerViewTestOne */,
 				62F64C0722C4694E00891DE0 /* Products */,
+				62F64C1B22C46AFC00891DE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,39 @@
 		62F64C0822C4694E00891DE0 /* FSPagerViewTestOne */ = {
 			isa = PBXGroup;
 			children = (
+				62F64C2A22C481DA00891DE0 /* Sources */,
 				62F64C0922C4694E00891DE0 /* AppDelegate.swift */,
 				62F64C0B22C4694E00891DE0 /* ViewController.swift */,
 				62F64C0D22C4694E00891DE0 /* Main.storyboard */,
 				62F64C1022C4694F00891DE0 /* Assets.xcassets */,
 				62F64C1222C4694F00891DE0 /* LaunchScreen.storyboard */,
 				62F64C1522C4694F00891DE0 /* Info.plist */,
+				62F64C2022C4746900891DE0 /* BannerDataSource.swift */,
 			);
 			path = FSPagerViewTestOne;
+			sourceTree = "<group>";
+		};
+		62F64C1B22C46AFC00891DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F64C2A22C481DA00891DE0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				62F64C2B22C481DA00891DE0 /* FSPagerView.swift */,
+				62F64C2C22C481DA00891DE0 /* FSPageViewTransformer.swift */,
+				62F64C2D22C481DA00891DE0 /* FSPagerViewObjcCompat.h */,
+				62F64C2E22C481DA00891DE0 /* FSPagerViewCell.swift */,
+				62F64C2F22C481DA00891DE0 /* FSPagerViewLayoutAttributes.swift */,
+				62F64C3022C481DA00891DE0 /* FSPageViewLayout.swift */,
+				62F64C3122C481DA00891DE0 /* FSPageControl.swift */,
+				62F64C3222C481DA00891DE0 /* FSPagerViewObjcCompat.m */,
+				62F64C3322C481DA00891DE0 /* FSPagerCollectionView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +131,7 @@
 				62F64C0222C4694E00891DE0 /* Sources */,
 				62F64C0322C4694E00891DE0 /* Frameworks */,
 				62F64C0422C4694E00891DE0 /* Resources */,
+				62F64C2522C47CEF00891DE0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -135,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F64C3822C481DA00891DE0 /* FSPageViewLayout.swift in Sources */,
+				62F64C3A22C481DA00891DE0 /* FSPagerViewObjcCompat.m in Sources */,
+				62F64C3922C481DA00891DE0 /* FSPageControl.swift in Sources */,
+				62F64C3722C481DA00891DE0 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				62F64C2122C4746900891DE0 /* BannerDataSource.swift in Sources */,
 				62F64C0C22C4694E00891DE0 /* ViewController.swift in Sources */,
+				62F64C3522C481DA00891DE0 /* FSPageViewTransformer.swift in Sources */,
 				62F64C0A22C4694E00891DE0 /* AppDelegate.swift in Sources */,
+				62F64C3B22C481DA00891DE0 /* FSPagerCollectionView.swift in Sources */,
+				62F64C3422C481DA00891DE0 /* FSPagerView.swift in Sources */,
+				62F64C3622C481DA00891DE0 /* FSPagerViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +351,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45JG3Z5RCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FSPagerViewTestOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +373,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45JG3Z5RCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FSPagerViewTestOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
